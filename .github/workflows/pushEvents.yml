@@ -24,7 +24,5 @@ jobs:
         needs: pushEvents
         runs-on: ubuntu-latest
         steps:
-            - name: npm deploy
-              run: npm run deploy
             - name: Deploy
               run: echo "DEploying ..."
